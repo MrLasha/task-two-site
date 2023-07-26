@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+body {
+    background: var(--black, #0E1014);
+}
+
+.gradient__bg{
+    background: radial-gradient(circle at 0% 47%, rgba(80, 13, 13, 1) 0%, rgba(14, 16, 20, 1) 15%, rgba(14, 16, 20, 1) 32%, rgba(29, 13, 40, 1) 60%, rgba(14, 16, 20, 1) 83%);         
+}
+
+.gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section__padding {
+    padding: 4rem 6rem ;
+}
+
+.section__margin {
+    margin: 4rem 6rem;
+}
+
+/* @media screen and (max-width: 700px ) {
+    .section__padding {
+        padding: 4rem 6rem ;
+    }
+    
+    .section__margin {
+        margin: 4rem;
+    }
+} */
+/* @media screen and (max-width: 550px ) {
+    .section__padding {
+        padding: 4rem 6rem ;
+    }
+    
+    .section__margin {
+        margin: 4rem;
+    }
+} */

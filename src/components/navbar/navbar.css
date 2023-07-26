@@ -1,0 +1,119 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: auto;
+    max-width: 1140px;
+    padding: 3em 15px;
+    margin: 0 auto;
+    color: var(--light-text, #E4E5EA);
+}
+
+.navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-links-logo img {
+    margin-right: 5px;
+}
+.navbar-links-sevice {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.875rem;
+    margin: 1em;
+}
+
+.navbar-links-logo-description {
+    color: #E4E5EA;
+    font-family: Montserrat;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 1em;
+    max-width: 117px;
+    opacity: 0.6;
+}
+
+.navbar-links-sevice a {
+    color: var(--light-text, #E4E5EA);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.navbar-phonenumber {
+    color: var(--light-text, #E4E5EA);
+    text-align: right;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 120px;
+}
+
+.navbar-links-contact-logo img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar-links-contact-logo-img {
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        text-transform: uppercase;
+        justify-content: space-around;
+        background-color: #0E1014;
+        padding: 0;
+        width: 100%;
+    }
+    .navbar-links-logo {
+        display: none;
+    }
+    .navbar-links-contact-logo {
+        display: none;
+    }
+    .navbar-phonenumber {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .navbar-links-sevice {
+        align-items: center;
+        justify-content: space-around;
+        color: var(--light-text, #E4E5EA);
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        height: 55px;
+        gap: 0.5rem;
+        background-color: #0E1014;
+        width: 100%;
+    }
+    
+    .navbar-links-sevice :last-child {
+        display: none;
+    }
+
+    .navbar-links-logo {
+        display: none;
+    }
+    .navbar-links-contact-logo {
+        display: none;
+    }
+    .navbar-phonenumber {
+        display: none;
+    }
+}

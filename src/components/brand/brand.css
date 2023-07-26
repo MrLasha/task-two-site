@@ -1,0 +1,121 @@
+.brand-content {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: auto;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    max-width: 1140px;
+    color: var(--light-text, #E4E5EA);
+}
+
+.brand-content-leftside-gradient {
+    color: #E4E5EA;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 310px;
+}
+
+.brand-content-leftside-gradient span {
+    background: #CFD93C;
+    background: linear-gradient(to right, #CFD93C 6%, #CF1512 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    flex-wrap: wrap;
+}
+
+.brand-content-leftside p {
+    color: var(--light-text, #E4E5EA);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.brand-content-rightside {
+    text-align: right;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.brand-content-rightside h3 span {
+    background: #CFD93C;
+    background: linear-gradient(to right, #CFD93C 6%, #CF1512 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.brand-content-rightside-services {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    text-align: right;
+}
+
+.brand-content-rightside-services p {
+    max-width: 140px;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.brand-content-button {
+    display: flex;
+    justify-content: end;
+}
+
+.brand-content-button button {
+    background-color: #4077F3;
+    border: none;
+    color: #E4E5EA;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 700px) {
+    .brand-content {
+        margin: 0 auto;
+        padding: 40px 0 40px;
+        flex-direction: column;
+    }
+
+    .brand-content-leftside {
+        margin: 0 auto;
+        padding: 10px 0 50px;
+    }
+    
+    .brand-content-rightside {
+        flex-direction: column;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .brand-content-rightside-services {
+        justify-content: space-between;
+    }
+
+
+    .brand-content-rightside-services span {
+        display: none;
+    }
+
+    .brand-content-button {
+        display: none;
+    }
+}
