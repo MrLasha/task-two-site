@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/task-two-site/static/css/main.8fbd0de7.css",
+    "main.js": "/task-two-site/static/js/main.11aa0333.js",
+    "index.html": "/task-two-site/index.html",
+    "main.8fbd0de7.css.map": "/task-two-site/static/css/main.8fbd0de7.css.map",
+    "main.11aa0333.js.map": "/task-two-site/static/js/main.11aa0333.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fbd0de7.css",
+    "static/js/main.11aa0333.js"
+  ]
+}
